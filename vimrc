@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 "filetype plugin indent on
 filetype plugin on
-autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree | wincmd p
 let delimitMate_expand_cr = 1
 "Nerdtree
 map <C-n> :NERDTreeToggle<CR>
